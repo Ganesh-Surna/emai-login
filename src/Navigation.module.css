@@ -1,0 +1,19 @@
+.list {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list li {
+  margin-left: 0.75rem;
+}
+.list li a {
+  color: white;
+  text-decoration: none;
+}
+.list li a:hover,
+.list li a:active {
+  text-decoration: underline;
+  cursor: pointer;
+}

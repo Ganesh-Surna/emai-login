@@ -1,0 +1,33 @@
+.btn-container {
+  display: flex;
+}
+
+@media (max-width: 568px) {
+  Button {
+    width: 100%;
+  }
+}
+
+@keyframes SlideLeftIN {
+  0% {
+    transform: translateY(-9rem);
+  }
+  20%,
+  60%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-5rem);
+  }
+  70% {
+    transform: translateY(-3rem);
+  }
+  90% {
+    transform: translateY(-1rem);
+  }
+}
+.container {
+  animation: SlideLeftIN 0.8s ease-out;
+}
